@@ -35,7 +35,7 @@
  img{
     max-width: 100%;
  }
- section a{
+ section a {
     color: #fff;
  }
  /*navbar*/
@@ -98,7 +98,7 @@ margin: 0 5px;
 }
 
 .box-inner{
-    
+     max-width: 700px;
 }
  /*buttons*/
 
