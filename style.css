@@ -99,6 +99,35 @@ margin: 0 5px;
 
 .box-inner{
      max-width: 700px;
+     margin: 0 auto;
+}
+.box-text {
+    max-width: 500px;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.box-f .box-text{
+   max-width: 600px;
+  
+}
+.box-text .btn {
+    margin-top: 20px;
+}
+
+/* Grid Styles */
+.grid-col-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*to provide the space*/
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+} 
+.grid-reversed:first-child {
+    order: 2; /*the frst child will get order 2*/
+
 }
  /*buttons*/
 
@@ -119,7 +148,8 @@ margin: 0 5px;
     border-color:black;
     color: #000;
  }
- .btn-dark-outline:hover{
+ .btn-dark-outline:hover,
+ .btn-light-outline:hover{
     background-color: rgba(0, 0,0, 0.06);
  } 
  .btn-light-outline 
