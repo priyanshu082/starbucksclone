@@ -6,7 +6,7 @@
     --color-extra: #d4e9e2;
 }
 
-* {
+ * {    /* what is this * here */
     box-sizing: border-box;
     margin:0;
     padding: 0;
